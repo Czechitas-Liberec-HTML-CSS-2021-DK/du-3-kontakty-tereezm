@@ -8,3 +8,59 @@ body {
 }
 
 /* ---------------------------------------------------- */
+
+.kontakty {
+	display: flex;
+	flex-direction: row;
+	background-color: #EBEBEB;
+	border-radius: 18px;
+	justify-content: center;
+	margin-left: 2rem;
+	margin-right: 2rem;
+
+}
+
+.zena {
+	display: flex;
+	width: 22%;
+	background-color: white;
+	padding: 2rem;
+	margin: 2rem;
+	border-radius: 6px;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.foto {
+	width: 150px;
+	border-radius: 50%;
+	text-align: center;
+	align-items: center;
+}
+
+.jmeno {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+.icon {
+	width: 35px;
+	height: 35px;
+}
+
+.icons {
+	display: flex;
+	justify-content: space-between;
+	width: 150px;
+	align-items: center;
+	
+}
+
+h1 {
+	margin-left: 2rem;
+}
